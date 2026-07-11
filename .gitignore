@@ -1,9 +1,12 @@
 node_modules/
 .vscode/
+.idea/
+dist/
+build/
+.cache/
 *.log
+*.tmp
+*.temp
 .DS_Store
 Thumbs.db
 Desktop.ini
-*.tmp
-*.temp
-.cache/

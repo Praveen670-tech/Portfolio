@@ -1,64 +1,93 @@
-# PRAVEEN N - Portfolio Website
+# PRAVEEN N | Portfolio Website
 
-A modern, responsive personal portfolio website built with HTML, CSS, and JavaScript. It highlights my background, projects, skills, certifications, and contact information in a polished, professional layout.
+A modern, responsive portfolio website built with HTML, CSS, and JavaScript to showcase my projects, skills, certifications, resume, and professional experience.
 
-## ✨ Features
+## About
 
-- Responsive glassmorphism-inspired UI for desktop, tablet, and mobile
-- Smooth scrolling navigation and animated section reveals
-- Typing animation in the hero section
-- Dynamic Certifications section that automatically discovers certificate files from the project
-- Preview and download actions for each certificate
-- Contact form integrated with Formspree
-- Resume download button
+I’m Praveen N, a software developer and engineering student focused on full-stack development, backend systems, AI, and problem solving. This portfolio highlights my technical journey, selected projects, and verified certifications.
 
-## 📁 Project Structure
+## Technologies
 
-- index.html — Main portfolio structure
-- styles.css — Visual design, layout, and animations
-- script.js — Navigation, reveal animations, typing effect, and certificate carousel
-- form.js — Contact form handling and Formspree submission logic
-- assets/ — Images, resume, and certificate files
-- scripts/generate-certificates-manifest.js — Generates the certificate data used by the portfolio
+- HTML
+- CSS
+- JavaScript
+- GitHub Pages
+- Formspree for contact submission
 
-## 🧾 Certificate Automation
+## Projects
 
-The Certifications section is powered by certificate files already present in the project.
+The portfolio highlights several full-stack and AI-focused projects, including:
 
-Supported formats:
-- PDF
-- PNG
-- JPG
-- JPEG
-- WEBP
+- Fake News AI
+- E-Commerce Marketplace
+- Instagram Clone
 
-To refresh the certificate gallery after adding new files:
+## Skills
 
-```bash
-node scripts/generate-certificates-manifest.js
-```
+- Java
+- Python
+- C
+- Go
+- C#
+- HTML
+- CSS
+- JavaScript
+- React.js
+- Node.js
+- Spring Boot
+- MySQL
+- Git and GitHub
 
-This generates:
-- assets/certificates/certificates.json
-- assets/certificates/certificates-data.js
+## Cisco Certifications
 
-## ▶️ How to Run Locally
+The portfolio includes a dedicated certification gallery with Cisco Networking Academy achievements and other verified learning milestones.
 
-You can open the site directly in a browser, or serve it locally:
+## Resume
+
+The resume is available in the root directory as:
+
+- PRAVEEN_N_RESUME.pdf
+
+## Screenshots
+
+Project visuals are stored in the assets folder and are used in the portfolio sections.
+
+## Contact
+
+- Email: praveen1606feb@gmail.com
+- LinkedIn: https://linkedin.com/in/praveen-n-a83340364
+- GitHub: https://github.com/Praveen670-tech
+
+## GitHub Pages Link
+
+https://praveen670-tech.github.io/Portfolio/
+
+## Project Structure
+
+- index.html — main portfolio page
+- styles.css — site styling and layout
+- script.js — navigation, typing animation, and certificate carousel behavior
+- form.js — contact form submission handling
+- assets/ — project images, profile image, and certificates
+- scripts/generate-certificates-manifest.js — certificate manifest generator
+
+## Run Locally
+
+You can launch the site locally with:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open:
+Then visit:
 
 ```text
 http://127.0.0.1:8000/
 ```
 
-## 🔧 Notes
+## Notes
 
-- The portfolio uses only HTML, CSS, and JavaScript.
-- The contact form requires a valid Formspree endpoint in form.js.
-- New certificates can be added to the certificate folders and will appear automatically after regeneration.
+- The site is a static portfolio and works well on GitHub Pages.
+- The contact form uses a Formspree endpoint configured in the HTML form.
+- New certificate files can be added to the certificate folders and refreshed using the manifest generator.
 
